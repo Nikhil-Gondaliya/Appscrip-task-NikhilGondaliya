@@ -1,0 +1,79 @@
+.customSelectContainer {
+  position: relative;
+  width: 200px;
+}
+
+.customSelectTrigger {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-end;
+  font-size: 16px;
+}
+
+.customSelectDropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 4px;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease;
+}
+
+.customSelectDropdown.open {
+  max-height: 230px;
+  transition: max-height 0.3s ease;
+}
+
+.customSelectOption {
+  padding: 8px;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.customSelectOption:hover {
+  background-color: #f1f1f1;
+}
+
+@media only screen and (max-width: 1000px) {
+  .customSelectTrigger {
+    font-size: 14px;
+  }
+  .customSelectContainer {
+    width: 170px;
+  }
+  .customSelectDropdown {
+    width: 220px;
+  }
+  .customSelectOption {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .customSelectTrigger {
+    font-size: 12px;
+  }
+
+  .customSelectContainer {
+    position: relative;
+    width: 150px;
+  }
+  .customSelectDropdown {
+    width: 170px;
+  }
+  .customSelectOption {
+    font-size: 13px;
+  }
+  .customSelectDropdown {
+    left: -20px;
+  }
+}

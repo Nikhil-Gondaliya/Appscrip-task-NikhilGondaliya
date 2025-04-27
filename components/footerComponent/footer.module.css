@@ -1,0 +1,290 @@
+.ftMainBox {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 60px 10px 60px;
+  
+  box-sizing: border-box;
+}
+
+.ftBoxOne {
+  width: 100%;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.ftSubscribeMainBox {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.ftInputSubBox {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.ftInputFiled {
+  background-color: white;
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.ftSubscribeBtn {
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: black;
+  font-size: 16px;
+  font-family: "SimplonNorm";
+  color: white;
+  font-weight: 400;
+  margin: 0px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.ftContactUsBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  gap: 5px;
+}
+
+.ftBoxTwo {
+  width: 100%;
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.ftMettaBox {
+  width: 100%;
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.usaLogo {
+  width: 24px;
+  height: 24px;
+}
+
+.stopIcon {
+  rotate: 40deg;
+}
+
+.instaLinkBox {
+  display: flex;
+  gap: 7px;
+  margin-top: 20px;
+}
+
+.linkInstaIcon {
+  width: 30px;
+  height: 30px;
+}
+
+.paymentInfoBox {
+  margin-top: 30px;
+}
+
+.paymentIcons {
+  width: 100%;
+  margin-top: 20px;
+}
+.ftBeFirstTitleText {
+  font-size: 20px;
+  font-family: "SimplonNorm";
+  color: white;
+  font-weight: 700;
+  margin: 0px;
+}
+.ftSignUpText {
+  font-size: 16px;
+  font-family: "SimplonNorm";
+  color: white;
+  font-weight: 400;
+  margin: 0px;
+}
+.ftContactNumberText {
+  font-size: 16px;
+  font-family: "SimplonNorm";
+  color: white;
+  font-weight: 400;
+  margin: 0px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.ftCommonSubText {
+  font-size: 18px;
+  font-family: "SimplonNorm";
+  color: white;
+  font-weight: 400;
+  margin: 0px;
+}
+.ftCommonMainTitle {
+  font-size: 24px;
+  font-family: "SimplonNorm";
+  color: white;
+  font-weight: 400;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.ftCommonSmText {
+  font-size: 12px;
+  font-family: "SimplonNorm";
+  color: white;
+  font-weight: 400;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.ftCurrencyBox {
+  font-size: 16px;
+  font-family: "SimplonNorm";
+  color: white;
+  font-weight: 700;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ftAccordionContainer {
+  width: 100%;
+  border-radius: 0;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.ftAccordionHeader {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+.ftAccordionHeaderContent {
+  flex: 1;
+}
+
+.ftAccordionExpandIcon {
+  font-size: 24px;
+  margin-left: auto;
+}
+
+.ftAccordionDetailsWrapper {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+
+.ftAccordionDetails {
+  padding: 10px;
+  background-color: #000000;
+}
+
+.ftCopyRightText{
+  color: white;
+  font-family: "SimplonNorm";
+}
+
+@media (max-width: 768px) {
+  .ftMainBox {
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .ftBoxTwo {
+    padding-top: 5px;
+  }
+
+  .ftBoxOne {
+    padding-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ftMettaBox {
+    max-width: 100%;
+    margin-bottom: 9px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid white;
+  }
+  .ftMettaBox2 {
+    max-width: 100%;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .ftMettaBox3 {
+    max-width: 100%;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .ftContactNumberBox {
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
+  }
+  .ftInputSubBox {
+    gap: 10px;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+  }
+  .contentNumberBox {
+    display: flex;
+  }
+  .ftInputFiled {
+    width: 100%;
+  }
+
+  .ftSubscribeMainBox,
+  .ftContactUsBox {
+    max-width: 100%;
+  }
+  .paymentIcons {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+  }
+  .ftCommonMainTitle {
+    font-size: 19px;
+    margin-bottom: 0px;
+  }
+
+  .ftCopyRightText{
+    font-size: small;
+  }
+}
+
+@media (max-width: 410px) {
+  .ftContactNumberText {
+    flex-wrap: wrap;
+  }
+
+}

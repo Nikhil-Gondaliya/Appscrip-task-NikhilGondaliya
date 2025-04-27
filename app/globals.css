@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'InterRegular';
+    src: local('InterRegular'), url('/fonts/Inter-Regular.woff2') format('woff2');
+  }
+  
+
+@font-face {
+    font-family: 'InterExtraLight';
+    src: local('InterExtraLight'), url('/fonts/Inter-ExtraLight.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'InterLight';
+    src: local('InterLight'), url('/fonts/Inter-Light.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'InterMedium';
+    src: local('InterMedium'), url('/fonts/Inter-Medium.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'InterSemiBold';
+    src: local('InterSemiBold'), url('/fonts/Inter-SemiBold.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'InterBold';
+    src: local('InterBold'), url('/fonts/Inter-Bold.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'InterExtraBold';
+    src: local('InterExtraBold'), url('/fonts/Inter-ExtraBold.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'SimplonNorm';
+    src: local('SimplonNorm'), url('/fonts/SimplonNorm-Regular-WebS.woff') format('woff2');
+}
+
+html,
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+

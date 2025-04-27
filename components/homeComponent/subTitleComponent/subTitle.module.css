@@ -1,0 +1,57 @@
+.subTitMainBox{
+    width: 100%;
+    padding-top:25px ;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #E5E5E5;
+    display: flex;
+    justify-content: space-between;
+}
+.subTitSubBox{
+    width: 100%;
+    max-width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.hideShowBtn{
+    height: 27px;
+    color: #888792 !important;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.hideShowText{
+    border-bottom: 1px solid #888792;
+}
+.recommendedBox {
+    display: flex;
+}
+
+@media only screen and (max-width: 1000px) {
+    .subTitMainBox {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .hideShowBtn {
+        height: 27px;
+        color: #888792 !important;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .subTitSubBox {
+        justify-content: center;
+        border-right: 1px solid;
+        max-width: 52%;
+        align-items: center;
+    }
+    .recommendedBox{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+}

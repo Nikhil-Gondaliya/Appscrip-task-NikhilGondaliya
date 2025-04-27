@@ -1,0 +1,62 @@
+ .accordionContainer {
+  border-top: 1px solid #bfc8cd;
+  width: 100%;
+  border-radius: 0;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.accordionHeader {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+.accordionHeaderContent {
+  flex: 1;
+}
+
+.accordionTitle {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  font-family: 'SimplonNorm';
+}
+
+.accordionSubtitle {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  font-family: 'SimplonNorm';
+
+}
+
+.accordionExpandIcon {
+  font-size: 24px;
+  margin-left: auto;
+}
+
+.accordionDetailsWrapper {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+
+.accordionDetails {
+  padding: 10px;
+  background-color: #fff;
+}
+
+.unSelect {
+  color: #bfc8cd;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.checkboxGroup {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

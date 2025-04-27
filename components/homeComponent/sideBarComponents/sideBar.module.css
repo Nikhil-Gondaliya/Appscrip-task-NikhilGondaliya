@@ -1,0 +1,33 @@
+.sideMainBox {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 300px;
+    padding: 0px;
+}
+
+.customizbleBox {
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.customizeCheckbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: -2px;
+    border-radius: 0px;
+}
+
+.customizeText {
+    font-size: 18px;
+    font-family: SimplonNorm;
+    font-weight: 700;
+    line-height: 0px;
+}
+.custoLabelAlgin{
+     display: flex;
+     gap: 10px;
+     align-items: center;
+}

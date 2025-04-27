@@ -1,0 +1,13 @@
+.sideProductMainBox {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .sideProductMainBox {
+        justify-content: center;
+        align-items: center;
+    }
+}
